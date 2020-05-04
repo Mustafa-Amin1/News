@@ -1,0 +1,172 @@
+/* Start Global Style */
+*{
+box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+body{
+    position: relative;
+}
+/* End Global Style */
+
+/* Start nav bar Style */
+nav{
+    background-color: #252730;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+nav .navbar-brand{
+    font-size: 3rem;
+    color: #BD9C55
+}
+nav .navbar-brand span{
+color: rgb(184, 162, 116,.7);
+}
+nav ul{
+
+}
+nav ul li{
+    margin: auto .9rem;
+    
+}
+nav ul li:hover a{
+    color: #BD9C55;
+}
+nav ul li a{
+    color: lightgray !important;
+}
+.dropdown-toggle::after {
+    color: #BD9C55;
+}
+/* End nav bar Style */
+main{
+    
+}
+/* start slider Style */
+.carousel {
+    height: 60vh;
+    object-fit: fill;
+}
+.carousel img{
+    height: 100%;
+}
+.carousel-control-next, .carousel-control-prev {
+    background-color: #BD9C55;
+    top: 50%;
+    bottom: 50%;
+    width: 3%;
+    height: 3rem;
+}
+.carousel-caption{
+    background-color: rgb(17, 16, 16,.5);
+    right: 0;
+    left: 0;
+    text-align: right;
+    padding-right: 1rem;
+}
+.carousel-caption h5{
+font-size: 1.8rem;
+}
+.carousel-indicators{
+    margin: 0;
+    padding: 0;
+
+}
+.carousel-indicators li{
+    width: 100%;
+    height: 2rem;
+    margin: 0;
+}
+.carousel-indicators li {
+    width: 100%;
+    height: 2rem;
+    margin: 0;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    background-color: gray;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+li.active{
+    background-color: #BD9C55;
+}
+/* End slider Style */
+
+/* start side menu */
+aside ul.nav{
+    background-color:#252730 ;
+    padding: 0;
+    border-bottom: .5rem solid #BD9C55;
+    color: white !important;
+}
+aside ul.nav a{
+    color: white ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-tabs .nav-link.active{
+    background-color: #BD9C55;
+    border-color: transparent;
+}
+.tab-content{
+    background-color: #252730;
+}
+.categories{
+    color: white;
+    padding: 2rem .5rem;
+}
+.categories ul{
+    padding-right: 0;
+
+}
+.categories ul li{
+    list-style: none;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+  figure{
+    height: 10rem !important;
+}
+  figure img{
+    height: 100% !important;
+}
+.content .content__date{
+    color: #BD9C55;
+}
+.content .content__text{
+    font-size: 1.4rem;
+}
+/* End side menu */
+
+/* start footer style */
+section.about .footer{
+    position: relative; /* for footer*/
+    height: 80px;
+    margin-top: 50px;
+}
+ .footer .footer-content{
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 20px;
+}
+.footer p{
+    margin: 20px;
+    font-size: 15px;
+}
+ .footer p span{
+    color: #FE7E23;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+ .footer p strong{
+    color:rgb(249, 112, 112);
+    font-size: 20px;
+}
+/* End  footer style */
